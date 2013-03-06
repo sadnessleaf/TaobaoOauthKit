@@ -1,0 +1,337 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AAB2B33616E5EA0E0007213F /* TaobaoEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB2B33316E5EA0E0007213F /* TaobaoEngine.m */; };
+		AAB2B33716E5EA0E0007213F /* TBAuthWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB2B33516E5EA0E0007213F /* TBAuthWebViewController.m */; };
+		AAB2B33A16E5EA3A0007213F /* TaobaoRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB2B33916E5EA3A0007213F /* TaobaoRequest.m */; };
+		AAB2B33F16E5F6950007213F /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = AAB2B33E16E5F6950007213F /* JSONKit.m */; };
+		AACCDECC16E4A8AF00164AA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACCDECB16E4A8AF00164AA8 /* UIKit.framework */; };
+		AACCDECE16E4A8AF00164AA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACCDECD16E4A8AF00164AA8 /* Foundation.framework */; };
+		AACCDED016E4A8AF00164AA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACCDECF16E4A8AF00164AA8 /* CoreGraphics.framework */; };
+		AACCDED616E4A8AF00164AA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AACCDED416E4A8AF00164AA8 /* InfoPlist.strings */; };
+		AACCDED816E4A8AF00164AA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AACCDED716E4A8AF00164AA8 /* main.m */; };
+		AACCDEDC16E4A8AF00164AA8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AACCDEDB16E4A8AF00164AA8 /* AppDelegate.m */; };
+		AACCDEDE16E4A8AF00164AA8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = AACCDEDD16E4A8AF00164AA8 /* Default.png */; };
+		AACCDEE016E4A8AF00164AA8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AACCDEDF16E4A8AF00164AA8 /* Default@2x.png */; };
+		AACCDEE216E4A8AF00164AA8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AACCDEE116E4A8AF00164AA8 /* Default-568h@2x.png */; };
+		AACCDEEB16E4AB7C00164AA8 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AACCDEEA16E4AB7B00164AA8 /* TestViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AAB2B33216E5EA0E0007213F /* TaobaoEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoEngine.h; sourceTree = "<group>"; };
+		AAB2B33316E5EA0E0007213F /* TaobaoEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoEngine.m; sourceTree = "<group>"; };
+		AAB2B33416E5EA0E0007213F /* TBAuthWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBAuthWebViewController.h; sourceTree = "<group>"; };
+		AAB2B33516E5EA0E0007213F /* TBAuthWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBAuthWebViewController.m; sourceTree = "<group>"; };
+		AAB2B33816E5EA3A0007213F /* TaobaoRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaobaoRequest.h; sourceTree = "<group>"; };
+		AAB2B33916E5EA3A0007213F /* TaobaoRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaobaoRequest.m; sourceTree = "<group>"; };
+		AAB2B33B16E5F2200007213F /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		AAB2B33D16E5F6950007213F /* JSONKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONKit.h; sourceTree = "<group>"; };
+		AAB2B33E16E5F6950007213F /* JSONKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONKit.m; sourceTree = "<group>"; };
+		AACCDEC816E4A8AF00164AA8 /* WZHTaobaoKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WZHTaobaoKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AACCDECB16E4A8AF00164AA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AACCDECD16E4A8AF00164AA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AACCDECF16E4A8AF00164AA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AACCDED316E4A8AF00164AA8 /* WZHTaobaoKit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WZHTaobaoKit-Info.plist"; sourceTree = "<group>"; };
+		AACCDED516E4A8AF00164AA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AACCDED716E4A8AF00164AA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AACCDED916E4A8AF00164AA8 /* WZHTaobaoKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WZHTaobaoKit-Prefix.pch"; sourceTree = "<group>"; };
+		AACCDEDA16E4A8AF00164AA8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AACCDEDB16E4A8AF00164AA8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AACCDEDD16E4A8AF00164AA8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		AACCDEDF16E4A8AF00164AA8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		AACCDEE116E4A8AF00164AA8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		AACCDEE916E4AB7B00164AA8 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		AACCDEEA16E4AB7B00164AA8 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AACCDEC516E4A8AF00164AA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACCDECC16E4A8AF00164AA8 /* UIKit.framework in Frameworks */,
+				AACCDECE16E4A8AF00164AA8 /* Foundation.framework in Frameworks */,
+				AACCDED016E4A8AF00164AA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AAB2B33016E5E9F00007213F /* TaobaoKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAB2B33C16E5F6950007213F /* JSONKit */,
+				AAB2B33B16E5F2200007213F /* Constants.h */,
+				AAB2B33216E5EA0E0007213F /* TaobaoEngine.h */,
+				AAB2B33316E5EA0E0007213F /* TaobaoEngine.m */,
+				AAB2B33816E5EA3A0007213F /* TaobaoRequest.h */,
+				AAB2B33916E5EA3A0007213F /* TaobaoRequest.m */,
+				AAB2B33416E5EA0E0007213F /* TBAuthWebViewController.h */,
+				AAB2B33516E5EA0E0007213F /* TBAuthWebViewController.m */,
+			);
+			path = TaobaoKit;
+			sourceTree = "<group>";
+		};
+		AAB2B33C16E5F6950007213F /* JSONKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAB2B33D16E5F6950007213F /* JSONKit.h */,
+				AAB2B33E16E5F6950007213F /* JSONKit.m */,
+			);
+			path = JSONKit;
+			sourceTree = "<group>";
+		};
+		AACCDEBF16E4A8AF00164AA8 = {
+			isa = PBXGroup;
+			children = (
+				AACCDED116E4A8AF00164AA8 /* WZHTaobaoKit */,
+				AACCDED216E4A8AF00164AA8 /* Supporting Files */,
+				AACCDECA16E4A8AF00164AA8 /* Frameworks */,
+				AACCDEC916E4A8AF00164AA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AACCDEC916E4A8AF00164AA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AACCDEC816E4A8AF00164AA8 /* WZHTaobaoKit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AACCDECA16E4A8AF00164AA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AACCDECB16E4A8AF00164AA8 /* UIKit.framework */,
+				AACCDECD16E4A8AF00164AA8 /* Foundation.framework */,
+				AACCDECF16E4A8AF00164AA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AACCDED116E4A8AF00164AA8 /* WZHTaobaoKit */ = {
+			isa = PBXGroup;
+			children = (
+				AAB2B33016E5E9F00007213F /* TaobaoKit */,
+				AACCDEDA16E4A8AF00164AA8 /* AppDelegate.h */,
+				AACCDEDB16E4A8AF00164AA8 /* AppDelegate.m */,
+				AACCDEE916E4AB7B00164AA8 /* TestViewController.h */,
+				AACCDEEA16E4AB7B00164AA8 /* TestViewController.m */,
+			);
+			path = WZHTaobaoKit;
+			sourceTree = "<group>";
+		};
+		AACCDED216E4A8AF00164AA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AACCDED316E4A8AF00164AA8 /* WZHTaobaoKit-Info.plist */,
+				AACCDED416E4A8AF00164AA8 /* InfoPlist.strings */,
+				AACCDED716E4A8AF00164AA8 /* main.m */,
+				AACCDED916E4A8AF00164AA8 /* WZHTaobaoKit-Prefix.pch */,
+				AACCDEDD16E4A8AF00164AA8 /* Default.png */,
+				AACCDEDF16E4A8AF00164AA8 /* Default@2x.png */,
+				AACCDEE116E4A8AF00164AA8 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			path = WZHTaobaoKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AACCDEC716E4A8AF00164AA8 /* WZHTaobaoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AACCDEE516E4A8AF00164AA8 /* Build configuration list for PBXNativeTarget "WZHTaobaoKit" */;
+			buildPhases = (
+				AACCDEC416E4A8AF00164AA8 /* Sources */,
+				AACCDEC516E4A8AF00164AA8 /* Frameworks */,
+				AACCDEC616E4A8AF00164AA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WZHTaobaoKit;
+			productName = WZHTaobaoKit;
+			productReference = AACCDEC816E4A8AF00164AA8 /* WZHTaobaoKit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AACCDEC016E4A8AF00164AA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = sadnessleaf;
+			};
+			buildConfigurationList = AACCDEC316E4A8AF00164AA8 /* Build configuration list for PBXProject "WZHTaobaoKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AACCDEBF16E4A8AF00164AA8;
+			productRefGroup = AACCDEC916E4A8AF00164AA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AACCDEC716E4A8AF00164AA8 /* WZHTaobaoKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AACCDEC616E4A8AF00164AA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACCDED616E4A8AF00164AA8 /* InfoPlist.strings in Resources */,
+				AACCDEDE16E4A8AF00164AA8 /* Default.png in Resources */,
+				AACCDEE016E4A8AF00164AA8 /* Default@2x.png in Resources */,
+				AACCDEE216E4A8AF00164AA8 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AACCDEC416E4A8AF00164AA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AACCDED816E4A8AF00164AA8 /* main.m in Sources */,
+				AACCDEDC16E4A8AF00164AA8 /* AppDelegate.m in Sources */,
+				AACCDEEB16E4AB7C00164AA8 /* TestViewController.m in Sources */,
+				AAB2B33616E5EA0E0007213F /* TaobaoEngine.m in Sources */,
+				AAB2B33716E5EA0E0007213F /* TBAuthWebViewController.m in Sources */,
+				AAB2B33A16E5EA3A0007213F /* TaobaoRequest.m in Sources */,
+				AAB2B33F16E5F6950007213F /* JSONKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AACCDED416E4A8AF00164AA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AACCDED516E4A8AF00164AA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AACCDEE316E4A8AF00164AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AACCDEE416E4A8AF00164AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AACCDEE616E4A8AF00164AA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZHTaobaoKit/WZHTaobaoKit-Prefix.pch";
+				INFOPLIST_FILE = "WZHTaobaoKit/WZHTaobaoKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AACCDEE716E4A8AF00164AA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WZHTaobaoKit/WZHTaobaoKit-Prefix.pch";
+				INFOPLIST_FILE = "WZHTaobaoKit/WZHTaobaoKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AACCDEC316E4A8AF00164AA8 /* Build configuration list for PBXProject "WZHTaobaoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACCDEE316E4A8AF00164AA8 /* Debug */,
+				AACCDEE416E4A8AF00164AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AACCDEE516E4A8AF00164AA8 /* Build configuration list for PBXNativeTarget "WZHTaobaoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACCDEE616E4A8AF00164AA8 /* Debug */,
+				AACCDEE716E4A8AF00164AA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AACCDEC016E4A8AF00164AA8 /* Project object */;
+}
