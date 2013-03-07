@@ -24,6 +24,13 @@
 
 #pragma mark - Methods
 - (void)auth {
+    /*
+     需要修改
+     kTaobaoAppKey
+     kTaobaoAppSecret
+     kTaobaoCallBackURL
+     为你申请的应用的对应值
+     */
     TaobaoEngine *tbEngine = [[TaobaoEngine alloc] initWithAppKey:kTaobaoAppKey appSecret:kTaobaoAppSecret redirectURL:kTaobaoCallBackURL];
     tbEngine.delegate = self;
     tbEngine.rootViewController = self;
@@ -34,8 +41,8 @@
 }
 - (void)getUserInfo {
     NSMutableDictionary *param = [NSMutableDictionary dictionary];
-    [param setValue:@"taobao.user.buyer.get" forKey:@"method"];
-    [param setValue:@"user_id,nick,sex,buyer_credit,avatar,has_shop,vip_info" forKey:@"fields"];
+    [param setValue:@"taobao.user.seller.get" forKey:@"method"];
+    [param setValue:@"user_id,nick,sex,seller_credit,type,has_more_pic,item_img_num,item_img_size,prop_img_num,prop_img_size,auto_repost,promoted_type,status,alipay_bind,consumer_protection,avatar,liangpin,sign_food_seller_promise,has_shop,is_lightning_consignment,has_sub_stock,is_golden_seller,vip_info,magazine_subscribe,vertical_market,online_gaming" forKey:@"fields"];//,tsc,cid,cat_name,props,props_str,binds_str,sale_props_str,name,binds,sale_props,price,desc,pic_url,modified,product_imgs,product_prop_imgs,status,vertical_market,customer_props,property_alias
     
     [_tbEngine requestWithParams:param httpMethod:GET delegate:self];
 }
